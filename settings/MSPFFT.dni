@@ -8,6 +8,26 @@ UseTrigger=1
 TriggerName=main
 LimitSize=0
 ByteLimit=50
+[DebugChecksum]
+Checksum=-1864665816
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
 [InterruptLog]
 LogEnabled=0
 SumEnabled=0
@@ -16,7 +36,10 @@ ShowTimeLog=1
 ShowTimeSum=1
 SumSortOrder=0
 [Breakpoints2]
-Count=0
+Bp0=_ 0 "STD_DATA2" "sqrt" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.66.6" 0 0 1 "" 0 ""
+Bp2=_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.66.6" 0 0 1 "" 0 ""
+Count=3
 [Interrupts]
 Enabled=1
 [MemoryMap]

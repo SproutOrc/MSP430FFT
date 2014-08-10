@@ -34,25 +34,35 @@ Complex const factor[H_NUM] = {
 
 void main( void )
 {
+    int i;
+    float sum;
+    unsigned char n = 0;
+    
     // Stop watchdog timer to prevent time out reset
     WDTCTL = WDTPW + WDTHOLD;
     Clock_Init();
     P6SEL = 0x00;
     P6DIR = 0xff;
+    P6OUT = 0xFF;
     
-    int i;
-    unsigned char n;
+    
     for (i = 0; i < 128; i++) {
         (data + i)->real = (float)(2 * sin(PI_TWO * i / 64));
     }
-    while (1) {
-        FFT(data, factor, NUM, SERIES);
-        for (i = 0; i < 64; i++) {
-            if ((data + i)->real > 0) {
-                n++;
-            }
+    FFT(data, factor, NUM, SERIES);
+    for (i = 0; i < 64; i++) {
+        sum = (
+                   (data + i)->real * (data + i)->real 
+                 + (data + i)->imag * (data + i)->imag
+              );
+        
+        if (sum > 64.0) {
+            n++;
         }
-        P6OUT = n;
-        n = 0;
+    }
+    P6OUT = n;
+    LPM4;
+    while (1) {
+     
     }
 }
