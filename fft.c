@@ -27,17 +27,17 @@ void imagZero ()
     }
 }
 
-void addComplex(Complex *getResult, Complex *A, Complex *withB) {
+void addComplex(Complex *getResult, Complex const *A, Complex const *withB) {
     getResult->real = A->real + withB->real;
     getResult->imag = A->imag + withB->imag;
 }
 
-void subComplex(Complex *getResult, Complex *A, Complex *withB) {
+void subComplex(Complex *getResult, Complex const *A, Complex const *withB) {
     getResult->real = A->real - withB->real;
     getResult->imag = A->imag - withB->imag;
 }
 
-void mulComplex(Complex *getResult, Complex *A, Complex *withB) {
+void mulComplex(Complex *getResult, Complex const *A, Complex const *withB) {
     getResult->real = A->real * withB->real - A->imag * withB->imag;
     getResult->imag = A->real * withB->imag + A->imag * withB->real;
 }
