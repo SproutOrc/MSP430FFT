@@ -4,13 +4,16 @@
   <ConfigDictionary>
     <CurrentConfigs>
       <Project>MSPFFT/Debug</Project>
+      <Project>LCD1602/Debug</Project>
     </CurrentConfigs>
+    <CurrentProj>MSPFFT</CurrentProj>
+    <OverviewSelected>0</OverviewSelected>
   </ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
         <ColumnWidths>
-          <Column0>136</Column0>
+          <Column0>178</Column0>
           <Column1>27</Column1>
           <Column2>27</Column2>
           <Column3>27</Column3>
@@ -24,64 +27,66 @@
       </Build>
     </Static>
     <Windows>
-      <Wnd1>
+      <Wnd2>
         <Tabs>
           <Tab>
-            <Identity>TabID-28037-23236</Identity>
+            <Identity>TabID-1946-30461</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
               <NodeDict>
+                <ExpandedNode>LCD1602</ExpandedNode>
                 <ExpandedNode>MSPFFT</ExpandedNode>
-                <ExpandedNode>MSPFFT/config.c</ExpandedNode>
                 <ExpandedNode>MSPFFT/fft.c</ExpandedNode>
-                <ExpandedNode>MSPFFT/main.c</ExpandedNode>
-                <ExpandedNode>MSPFFT/main.c/Output</ExpandedNode>
               </NodeDict>
             </Session>
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd1>
-      <Wnd0>
+      </Wnd2>
+      <Wnd3>
         <Tabs>
           <Tab>
-            <Identity>TabID-10245-9428</Identity>
+            <Identity>TabID-30428-31565</Identity>
             <TabName>Build</TabName>
             <Factory>Build</Factory>
             <Session/>
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd0>
+      </Wnd3>
     </Windows>
     <Editor>
       <Pane>
         <Tab>
           <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\Soft\IAR Systems\Embedded Workbench 6.0 Evaluation\430\doc\infocenter\index.ENU.html</Filename>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\main.c</Filename>
           <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>59</SelStart>
-          <SelEnd>59</SelEnd>
+          <YPos>36</YPos>
+          <SelStart>2306</SelStart>
+          <SelEnd>2306</SelEnd>
+        </Tab>
+        <ActiveTab>1</ActiveTab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\fft.c</Filename>
+          <XPos>0</XPos>
+          <YPos>66</YPos>
+          <SelStart>1940</SelStart>
+          <SelEnd>1940</SelEnd>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\fft.h</Filename>
           <XPos>0</XPos>
-          <YPos>18</YPos>
-          <SelStart>655</SelStart>
-          <SelEnd>655</SelEnd>
+          <YPos>0</YPos>
+          <SelStart>256</SelStart>
+          <SelEnd>256</SelEnd>
         </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\fft.c</Filename>
-          <XPos>0</XPos>
-          <YPos>58</YPos>
-          <SelStart>3293</SelStart>
-          <SelEnd>3293</SelEnd>
-        </Tab>
-        <ActiveTab>2</ActiveTab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
@@ -96,31 +101,31 @@
       <Top>
         <Row0>
           <Sizes>
-            <Toolbar-0321e788>
+            <Toolbar-021be788>
               <key>iaridepm.enu1</key>
-            </Toolbar-0321e788>
+            </Toolbar-021be788>
           </Sizes>
         </Row0>
       </Top>
       <Left>
         <Row0>
           <Sizes>
-            <Wnd1>
+            <Wnd2>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
                 <Bottom>584</Bottom>
-                <Right>210</Right>
+                <Right>252</Right>
                 <x>-2</x>
                 <y>-2</y>
                 <xscreen>200</xscreen>
                 <yscreen>200</yscreen>
                 <sizeHorzCX>125000</sizeHorzCX>
                 <sizeHorzCY>241838</sizeHorzCY>
-                <sizeVertCX>132500</sizeVertCX>
+                <sizeVertCX>158750</sizeVertCX>
                 <sizeVertCY>708585</sizeVertCY>
               </Rect>
-            </Wnd1>
+            </Wnd2>
           </Sizes>
         </Row0>
       </Left>
@@ -132,7 +137,7 @@
       <Bottom>
         <Row0>
           <Sizes>
-            <Wnd0>
+            <Wnd3>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
@@ -147,7 +152,7 @@
                 <sizeVertCX>125000</sizeVertCX>
                 <sizeVertCY>241838</sizeVertCY>
               </Rect>
-            </Wnd0>
+            </Wnd3>
           </Sizes>
         </Row0>
       </Bottom>

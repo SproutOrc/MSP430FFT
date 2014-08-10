@@ -2,6 +2,9 @@
 
 <workspace>
   <project>
+    <path>$WS_DIR$\..\..\Project\MSP430F149\DM430-L&#x6D4B;&#x8BD5;&#x793A;&#x4F8B;&#x6e90;&#x7A0B;&#x5e8F;\DM430-L 2014\LCD1602\LCD1602.ewp</path>
+  </project>
+  <project>
     <path>$WS_DIR$\MSPFFT.ewp</path>
   </project>
   <batchBuild/>
